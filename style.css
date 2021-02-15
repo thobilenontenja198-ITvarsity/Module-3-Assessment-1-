@@ -178,6 +178,7 @@ body{
 
 
 /*=================Responsive Lay-Out=========================*/
+
 @media only screen and (min-width: 600px){
     #meals {
         width: 80%;
