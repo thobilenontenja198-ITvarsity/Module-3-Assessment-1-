@@ -178,11 +178,59 @@ body{
 
 
 /*=================Responsive Lay-Out=========================*/
+@media only screen and (min-width: 600px){
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    #meals {
+        width: 60%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+
+}
 
 
+@media only screen and (min-width: 1500px) {
+    #meals {
+        width: 40%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+
+}
 
 
+@media only screen and (min-width: 720px) {
+    .body-home{
+        background-image: url('images/background-01-land.png') ;
+    }
 
+    .body-meals{
+        background-image: url('images/background-02-land.png') ;
+    }
+
+  
+
+}
 
 
 
